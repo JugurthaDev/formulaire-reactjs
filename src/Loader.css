@@ -1,0 +1,20 @@
+/* Loader.css */
+.loader {
+    position: fixed; /* Fixe le loader à l'écran */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fond blanc avec transparence */
+    z-index: 9999; /* Assurez-vous que le loader est au-dessus des autres éléments */
+    opacity: 1; /* Opacité initiale */
+    transition: opacity 0.5s ease; /* Transition de l'opacité */
+}
+
+/* Classe pour le fade-out */
+.loader.fade-out {
+    opacity: 0; /* Opacité finale */
+}
