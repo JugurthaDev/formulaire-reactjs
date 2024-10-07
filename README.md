@@ -2,6 +2,8 @@
 
 This is a Node.js application for handling form submissions.
 
+![img](src/image.png)
+
 ## Features
 
 - User-friendly form interface
